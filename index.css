@@ -1,6 +1,25 @@
 body {
-  background-color: #f5f5f5;
+  background-color: #a11351;
   color: #2d2c2c
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 238, 238);
+}
+h1{
+  font-size: xx-large;
+}
+li{
+  color: aqua;
+  font-size: x-large;
+}
+button{
+  font-style: inherit;
+  border-color: aqua;
+}
+input{
+  border-color: aqua;
+
 }
 
 #container {
@@ -21,7 +40,7 @@ body {
 
 #cat img {
   transition: 3s;
-  filter: brightness(60%);
+  filter: brightness(80%);
 }
 
 #cat img:hover {

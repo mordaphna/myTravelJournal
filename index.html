@@ -1,41 +1,105 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="screen">
+    <div id="container">
+      <div id="main">
+        <div class="intro">
+          <button id="bntChangeColor">Change Color</button>
+          <h1 id="title">Hi! Welcome to my travel diary</h1>
+          <p>
+            My name is mor and I am software developer who likes to travel!
+            <br />
+            Trvaling excites me. I like to see and experience other cultures, as
+            well as meeting new people.
+          </p>
+        </div>
+        <div id="Israel">
+          <h2>Travling in israel</h2>
+          <p>
+            During the Covid-19 and my I traveled in Emeck Hamaayanot.<br />
+            This area is blessed with bountiful amounts of water, nature and
+            blossoming flora.<br><br>
+            <img
+              src="emekHamaynot.png"
+              alt="Emeck Hamaayanot"
+              width="300"
+              height="400"> <br><br>
+            </img>
+          </p>
+        </div>
+        <h2>Travling abroad</h2>
+        <ul>
+          <li id ="peru">
+            <strong><em><u>Peru</u></em></strong>
+          </li>
+          <p>
+            I flew to south America with a friend from home.<br />
+            The first palce we landed in was Peru. <br />
+            We were amazed from the Culture of the Peruvians, the wather and the
+            beautiful landscape and the alpacas<br />
+            <a href="https://en.wikipedia.org/wiki/Peru">
+              to read more about Peru!<br><br>
+            </a>
+            <img
+              src="Peru.png"
+              alt="machu picchu"
+              width="300"
+              height="400">
+              <br><br>
+            </img>
 
-<head>
-  <meta charset=utf-8>
-  <title></title>
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-  <div id="container">
-    <div id="main">
-      <div class="intro">
-        <h1>Hi! Welcome to my profile</h1>
-        <p>
-          I'm a software engineer who likes to play guitar and take long walks.
-        </p>
+          </p>
+          <li>
+            <strong><em><u>Spain</u></em></strong>
+          </li>
+          <p>
+            After I was discharged from the army, I flew to Barcelona.<br />
+            Madrid is full of history and good food.<br />
+            <a href="https://en.wikipedia.org/wiki/Barcelona"
+              >to read more about Barcelona!<br /><br />
+            </a>
+            <img
+              src="Madrid.png.jpg"
+              alt="palac in barcelona"
+              width="300"
+              height="400">
+              <br>
+            </img>
+          </p>
+          <li>
+            <strong><em><u>Guatemala</u></em></strong>
+          </li>
+          <p>
+            After South America, we flew to Central America and The first place
+            we visited was Guatemala.<br>
+            There we did an amazing and difficult volcano trek. Guatemala was
+            one of a kind <br>
+            <a href="https://en.wikipedia.org/wiki/Guatemala">
+              to read more about Guatemala!<br /><br />
+            </a>
+          <img
+              src="guatamala.png"
+              alt="acatenango volcano "
+              width="300"
+              height="400"/>
+              <br><br> 
+          </img>
+          In the video, you can see the eruption of the Acatango volcano in Guatemala <br><br>
+          <input type=button name=type id=bt1 value="Hide video"
+            onclick="setVisibility('video');"> <br>
+            <br>
+            <iframe id ="video" width="560" height="315" src="https://www.youtube.com/embed/HG4YAu55qQU"
+             title="YouTube video about valcano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+        </ul>
+        </div>
       </div>
-      <div id="work">
-        <h2>Work</h2>
-        <p>
-          I work at a software company.
-        </p>
-      </div>
-      <div id="play">
-        <h2>Play</h2>
-        <p>
-          I play guitar and like to go walking.
-        </p>
-      </div>
-      <div id="cat">
-        <img src="cat.png" alt="Black metal cat" />
-      </div>
-      <div id="contact">
-        <button>Contact me</button>
-      </div>
-    </div>
-  </div>
-  <script src="index.js"></script>
-</body>
-
+    </div>  
+    <script src="index.js"></script>
+  </body>
 </html>

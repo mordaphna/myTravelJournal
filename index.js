@@ -9,18 +9,27 @@
 
 let button = document.getElementById('bntChangeColor');
 changecolor = true;
-let body = document.getElementById('screen');
-let title = document.getElementById('title');
 button.addEventListener('click', function(){
   changecolor = !changecolor;
   
   if(changecolor){
-    body.style.backgroundColor  = '#bb4779';
-    title.style.color = 'purple';
+    document.body.style.backgroundColor  = '#bb4779';
+    
+    document.body.style.color = 'white'
+    let el = document.getElementsByTagName('p')
+    let i
+    for (i = 0; i < el.length; i++) {
+        el[i].style.color = 'white';
+    }
   }
   else{
-    body.style.backgroundColor = '#a11351';
-    title.style.color = 'white';
+    document.body.style.backgroundColor = '#fdb1d2';
+    document.body.style.color = 'black';
+    let el = document.getElementsByTagName('p')
+    let i
+    for (i = 0; i < el.length; i++) {
+        el[i].style.color = 'black'
+    }
   }
 });
 

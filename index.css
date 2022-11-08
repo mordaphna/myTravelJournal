@@ -1,5 +1,5 @@
 body {
-  background-color: #a11351;
+  background-color: #fdb1d2;
   color: #2d2c2c
 }
 p{
@@ -10,7 +10,7 @@ h1{
   font-size: xx-large;
 }
 li{
-  color: aqua;
+  color: rgb(102, 21, 98);
   font-size: x-large;
 }
 button{
@@ -20,6 +20,10 @@ button{
 input{
   border-color: aqua;
 
+
+}
+title{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #container {
